@@ -10,7 +10,7 @@ Source0:	http://www.arklinux.org/projects/%{name}/%{name}-%{version}.tar.bz2
 URL:		http://www.arklinux.org/projects/jdkgcj/
 BuildRequires:	gcc-java >= 3.2
 Requires:	gcc-java >= 3.2
-Requires:	libgcj >= 3.2
+Requires:	libgcj-devel >= 3.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -42,4 +42,4 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/*
-%{_includedir}/*
+%{_includedir}/jni.h
