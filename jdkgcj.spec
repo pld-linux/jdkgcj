@@ -7,7 +7,7 @@ License:	GPL v2
 Group:		Development/Languages
 Source0:	http://www.arklinux.org/projects/%{name}/%{name}-%{version}.tar.bz2
 # Source0-md5:	850fd5b28d3338457e910e900b2b4dbe
-URL:		http://www.arklinux.org/projects/jdkgcj/
+URL:		http://freshmeat.net/projects/jdkgcj/
 BuildRequires:	gcc-java >= 3.2
 Requires:	gcc-java >= 3.2
 Requires:	libgcj-devel >= 3.2
