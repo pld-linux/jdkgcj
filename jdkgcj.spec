@@ -2,7 +2,7 @@ Summary:	A free Java SDK
 Summary(pl):	Wolnodostêpne SDK dla Javy
 Name:		jdkgcj
 Version:	0.3.1
-Release:	1
+Release:	2
 License:	GPL v2
 Group:		Development/Languages
 Source0:	http://www.arklinux.org/projects/%{name}/%{name}-%{version}.tar.bz2
@@ -42,4 +42,3 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/*
-%{_includedir}/jni.h
