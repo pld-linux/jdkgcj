@@ -1,11 +1,12 @@
 Summary:	A free Java SDK
+Summary(pl):	Wolnodostêpne SDK dla Javy
 Name:		jdkgcj
 Version:	0.3.1
 Release:	1
-License:	GPL
+License:	GPL v2
 Group:		Development/Languages
 Source0:	http://www.arklinux.org/projects/%{name}/%{name}-%{version}.tar.bz2
-URL:		http://www.arklinux.org/projects/jdkgcj
+URL:		http://www.arklinux.org/projects/jdkgcj/
 BuildRequires:	gcc-java >= 3.2
 Requires:	gcc-java >= 3.2
 Requires:	libgcj >= 3.2
@@ -16,6 +17,12 @@ jdkgcj provides an interface to gcj that is compatible with the Sun
 and IBM Java Development Kits (JDKs). jdkgcj provides the javac, java
 and javah tools as well as jni.h, allowing you to compile java
 extensions using JNI.
+
+%description -l pl
+jdkgcj dostarcza interfejs do gcj kompatybilny z pakietami JDK (Java
+Development Kit) od Suna i IBM-a. jdkgcj dostarcza narzêdzia javac,
+java i javah, a tak¿e jni.h, co pozwala na kompilowanie rozszerzeñ
+Javy korzystaj±cych z JNI.
 
 %prep
 %setup -q -n %{name}
