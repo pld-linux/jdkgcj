@@ -8,22 +8,20 @@ Group:		Development/Languages
 Source0:	http://www.arklinux.org/projects/%{name}/%{name}-%{version}.tar.bz2
 # Source0-md5:	850fd5b28d3338457e910e900b2b4dbe
 URL:		http://freshmeat.net/projects/jdkgcj/
-BuildRequires:	gcc-java >= 3.2
-Requires:	gcc-java >= 3.2
-Requires:	libgcj-devel >= 3.2
+BuildRequires:	gcc-java >= 5:3.3.3-1
+Requires:	gcc-java >= 5:3.3.3-1
+Requires:	libgcj-devel >= 5:3.3.3-1
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 jdkgcj provides an interface to gcj that is compatible with the Sun
 and IBM Java Development Kits (JDKs). jdkgcj provides the javac, java
-and javah tools as well as jni.h, allowing you to compile java
-extensions using JNI.
+and javah tools.
 
 %description -l pl
 jdkgcj dostarcza interfejs do gcj kompatybilny z pakietami JDK (Java
 Development Kit) od Suna i IBM-a. jdkgcj dostarcza narzêdzia javac,
-java i javah, a tak¿e jni.h, co pozwala na kompilowanie rozszerzeñ
-Javy korzystaj±cych z JNI.
+java i javah.
 
 %prep
 %setup -q -n %{name}
