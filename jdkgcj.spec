@@ -1,5 +1,5 @@
 Summary:	A free Java SDK
-Summary(pl):	Wolnodostêpne SDK dla Javy
+Summary(pl.UTF-8):   WolnodostÄ™pne SDK dla Javy
 Name:		jdkgcj
 Version:	0.3.1
 Release:	3
@@ -19,9 +19,9 @@ jdkgcj provides an interface to gcj that is compatible with the Sun
 and IBM Java Development Kits (JDKs). jdkgcj provides the javac, java
 and javah tools.
 
-%description -l pl
+%description -l pl.UTF-8
 jdkgcj dostarcza interfejs do gcj kompatybilny z pakietami JDK (Java
-Development Kit) od Suna i IBM-a. jdkgcj dostarcza narzêdzia javac,
+Development Kit) od Suna i IBM-a. jdkgcj dostarcza narzÄ™dzia javac,
 java i javah.
 
 %prep
