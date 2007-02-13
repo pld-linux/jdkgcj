@@ -1,5 +1,5 @@
 Summary:	A free Java SDK
-Summary(pl.UTF-8):   Wolnodostępne SDK dla Javy
+Summary(pl.UTF-8):	Wolnodostępne SDK dla Javy
 Name:		jdkgcj
 Version:	0.3.1
 Release:	3
